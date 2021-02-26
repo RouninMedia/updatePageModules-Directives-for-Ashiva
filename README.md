@@ -1,14 +1,14 @@
-# updatePageModules Directives for Da3SH
+# `updatePageModules` Directives for Da3SH
 **updatePageModules Directives** are a powerful tool enabling the addition / removal of any installed **Da3SH Module** to or from a page simply by editing the URL queryString. Consequently, **updatePageModules Directives** give anyone browsing a **Da3SH**-powered webpage the ability to add or remove module stylesheets and scripts to or from that page.
 
-## updatePageModules Directives vs Bookmarklets / FireMarks
+## `updatePageModules` Directives vs Bookmarklets / FireMarks
 From one perspective, **updatePageModules Directives** might be regarded as similar to **Bookmarklets** (aka **FireMarks**) in that they can bolt additional functionality on to a webpage. The differences are principally that
 
  - URLs which include **updatePageModules Directives** will usually be much shorter than **Bookmarklets**
  - **updatePageModules Directives** contain *references* to already-installed **Da3SH Modules** while **Bookmarklets** are actually self-contained entities
  - a URL including **updatePageModules Directives** may reference multiple **Da3SH Modules** while a **Bookmarklet** usually represents a single script 
 
-## How do updatePageModules work?
+## How do `updatePageModules` Directives work?
 In **Da3SH**, you can add or remove modules on a given page (or stylesheet, or scriptsheet) using the **queryString Parameter**:
 
   `updatePageModules`
@@ -18,13 +18,13 @@ The **queryString Parameter** `updatePageModules` has a percent-encoded JSON val
 
 ```
 {
-  "replaceModules": [],		                              // [OPTIONAL]
+  "replaceModules": [],		                             // [OPTIONAL]
 
   "removeModules": [],		                              // [OPTIONAL]
 
-  "addModules": [],				                              // [OPTIONAL]
+  "addModules": [],				                               // [OPTIONAL]
 
-  "customOrder": {"Styles": false, "Scripts": false}    // [OPTIONAL]	// <= if either value is omitted, default value is false
+  "customOrder": {"Styles": false, "Scripts": false}  // [OPTIONAL]	// <= if either value is omitted, default value is false
 }
 ```
 
@@ -130,9 +130,6 @@ EDIT PAGE MODULES: {"removeModules":[{"Publisher":"Scotia_Beauty","Module":"SB_N
 
 
 ## Code from Module Stylesheet / Module Scriptsheet
-
-
-?>
 
 
 
