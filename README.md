@@ -6,10 +6,12 @@ In summary, the visitor can manually edit the **updatePageModules Directives** i
 _____
 
 ## `updatePageModules` Directives vs Bookmarklets / FireMarks
-So far as they can bolt additional functionality on to a webpage, **updatePageModules Directives** might be regarded as similar to **Bookmarklets** (aka **FireMarks**). The differences are principally that:
+Given that they are often employed to bolt extra functionality on to a webpage, **updatePageModules Directives** might be regarded as similar to **Bookmarklets** (aka **FireMarks**). And to some degree, they are. The differences are principally that:
 
  - URLs which include **updatePageModules Directives** will usually be much shorter than **Bookmarklets**
+ 
  - **updatePageModules Directives** contain *references* to already-installed **Da3SH Modules** while **Bookmarklets** are actually self-contained entities
+ 
  - a URL including **updatePageModules Directives** may reference multiple **Da3SH Modules** while a **Bookmarklet** usually represents a single script
 
 ______
