@@ -150,7 +150,7 @@ _______
 
 ______
 
-## `updatePageModules` Directives: Functions in Core:
+## `updatePageModules` Directives :: Functions in Core
 
 ### `replaceModules()`
 
@@ -253,7 +253,7 @@ function removeModules($Asset, $modulesToRemove, $Module_List) {
 ______
 
 
-## `updatePageModules` Directives: Processor in Module Stylesheet / Module Scriptsheet
+## `updatePageModules` Directives :: Processor in Module Stylesheet / Module Scriptsheet
 
 ```php
 
