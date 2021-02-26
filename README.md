@@ -3,12 +3,16 @@
 
 Consequently, **updatePageModules Directives** give anyone browsing a **Da3SH**-powered webpage the ability to add or remove module stylesheets and scripts to or from that page in a couple of keystrokes, without leaving the browser.
 
+_____
+
 ## `updatePageModules` Directives vs Bookmarklets / FireMarks
 So far as they can bolt additional functionality on to a webpage, **updatePageModules Directives** might be regarded as similar to **Bookmarklets** (aka **FireMarks**). The differences are principally that:
 
  - URLs which include **updatePageModules Directives** will usually be much shorter than **Bookmarklets**
  - **updatePageModules Directives** contain *references* to already-installed **Da3SH Modules** while **Bookmarklets** are actually self-contained entities
- - a URL including **updatePageModules Directives** may reference multiple **Da3SH Modules** while a **Bookmarklet** usually represents a single script 
+ - a URL including **updatePageModules Directives** may reference multiple **Da3SH Modules** while a **Bookmarklet** usually represents a single script
+
+______
 
 ## How do `updatePageModules` Directives work?
 In **Da3SH**, you can add or remove modules on a given page (or stylesheet, or scriptsheet) using the **queryString Parameter**:
@@ -63,8 +67,9 @@ Note that:
    
  - `Module_Name` can ONLY be a module currently present in the Module List, otherwise value will revert to `last`
 
+______
 
-### Example:
+## Example of `insert` instructions:
 
 Original Module List:
 
@@ -101,6 +106,11 @@ And:
 It goes without saying that, to be applied to the page, any module will still, necessarily, be required to exist in the `/.assets/modules/` folder.
 It also goes without saying that, to be applied to the page, rendered components (ie. markup / vectors) need to be explicitly called in the markup.
 
+
+______
+
+## Where can updatePageModules Directives be added?
+
 The **updatePageModules** queryString Parameter may be added to any of three URL paths:
 
  1. The Page: `example.com/my-page/?updatePageModules=%7B%7D`
@@ -115,17 +125,17 @@ The **updatePageModules** queryString Parameter may be added to any of three URL
 
 ## Examples of `updatePageModules` Values
 
-EDIT PAGE MODULES: {"replaceModules":[{"Publisher":"Scotia_Beauty","Module":"SB_Email_Subscribers"}]}
-?updatePageModules=%7B%22replaceModules%22%3A%5B%7B%22Publisher%22%3A%22Scotia_Beauty%22%2C%22Module%22%3A%22SB_Email_Subscribers%22%7D%5D%7D
+**updatePageModules:** *{"replaceModules":[{"Publisher":"Scotia_Beauty","Module":"SB_Email_Subscribers"}]}*
+`?updatePageModules=%7B%22replaceModules%22%3A%5B%7B%22Publisher%22%3A%22Scotia_Beauty%22%2C%22Module%22%3A%22SB_Email_Subscribers%22%7D%5D%7D`
 
-EDIT PAGE MODULES: {"addModules":[{"Publisher":"Scotia_Beauty","Module":"SB_Email_Subscribers"}]}
-?updatePageModules=%7B%22addModules%22%3A%5B%7B%22Publisher%22%3A%22Scotia_Beauty%22%2C%22Module%22%3A%22SB_Email_Subscribers%22%7D%5D%7D
+**updatePageModules:** *{"addModules":[{"Publisher":"Scotia_Beauty","Module":"SB_Email_Subscribers"}]}*
+`?updatePageModules=%7B%22addModules%22%3A%5B%7B%22Publisher%22%3A%22Scotia_Beauty%22%2C%22Module%22%3A%22SB_Email_Subscribers%22%7D%5D%7D`
 
-EDIT PAGE MODULES: {"removeModules":[{"Publisher":"Scotia_Beauty","Module":"SB_Translations"}]}
-?updatePageModules=%7B%22removeModules%22%3A%5B%7B%22Publisher%22%3A%22Scotia_Beauty%22%2C%22Module%22%3A%22SB_Translations%22%7D%5D%7D
+**updatePageModules:** *{"removeModules":[{"Publisher":"Scotia_Beauty","Module":"SB_Translations"}]}*
+`?updatePageModules=%7B%22removeModules%22%3A%5B%7B%22Publisher%22%3A%22Scotia_Beauty%22%2C%22Module%22%3A%22SB_Translations%22%7D%5D%7D`
 
-EDIT PAGE MODULES: {"removeModules":[{"Publisher":"Scotia_Beauty","Module":"SB_Notice::Brexit"}],"addModules":[{"Publisher":"Scotia_Beauty","Module":"SB_Email_Subscribers"}]}
-?updatePageModules=%7B%22removeModules%22%3A%5B%7B%22Publisher%22%3A%22Scotia_Beauty%22%2C%22Module%22%3A%22SB_Notice%3A%3ABrexit%22%7D%5D%2C%22addModules%22%3A%5B%7B%22Publisher%22%3A%22Scotia_Beauty%22%%2C%22Module%22%3A%22SB_Email_Subscribers%227D%5D%7D
+**updatePageModules:** *{"removeModules":[{"Publisher":"Scotia_Beauty","Module":"SB_Notice::Brexit"}],"addModules":[{"Publisher":"Scotia_Beauty","Module":"SB_Email_Subscribers"}]}*
+`?updatePageModules=%7B%22removeModules%22%3A%5B%7B%22Publisher%22%3A%22Scotia_Beauty%22%2C%22Module%22%3A%22SB_Notice%3A%3ABrexit%22%7D%5D%2C%22addModules%22%3A%5B%7B%22Publisher%22%3A%22Scotia_Beauty%22%%2C%22Module%22%3A%22SB_Email_Subscribers%227D%5D%7D`
 
 
 
