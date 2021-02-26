@@ -79,9 +79,9 @@ Original Module List:
  - First_Module
  - Module_2
 
-To insert: Module_W, Module_X, Module_Y, Module_Z, Module_A, Module_B, Module_C
+Modules to insert: Module_W, Module_X, Module_Y, Module_Z, Module_A, Module_B, Module_C
 
-Resulting Edited Module List:
+Resulting Module List:
 
  - My_Module
  - Module_Z		`"insert": {"after": "My_Module"}`
