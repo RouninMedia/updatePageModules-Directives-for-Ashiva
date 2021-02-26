@@ -117,7 +117,11 @@ The **updatePageModules** queryString Parameter may be added to any of three URL
  2. The Module StyleSheet: `example.com/modules/styles/styles.css?updatePageModules=%7B%7D`
  3. The Module ScriptSheet: `example.com/modules/scripts/scripts.css?updatePageModules=%7B%7D`
 
- To add to `/my-page/` simply add the **updatePageModules** queryString Parameter to the end of a link ***or*** to the end of the URL in the browser URL bar.
+ To add to `/my-page/` simply add the **updatePageModules** queryString Parameter:
+ 
+   - to the end of a link
+   - to the end of the URL in the browser URL bar
+   
  The same **updatePageModules** queryString Parameter will then, automatically, be added to the calls to both the **Module StyleSheet** and the **Module ScriptSheet**.
  
  Alternatively, in **ServerSheet**-generated pages, the **updatePageModules** queryString Parameter may be hard-coded directly into **Module StyleSheet** & **Module ScriptSheet** calls.
@@ -126,15 +130,19 @@ The **updatePageModules** queryString Parameter may be added to any of three URL
 ## Examples of `updatePageModules` Values
 
 **updatePageModules:** *{"replaceModules":[{"Publisher":"Scotia_Beauty","Module":"SB_Email_Subscribers"}]}*
+
 `?updatePageModules=%7B%22replaceModules%22%3A%5B%7B%22Publisher%22%3A%22Scotia_Beauty%22%2C%22Module%22%3A%22SB_Email_Subscribers%22%7D%5D%7D`
 
 **updatePageModules:** *{"addModules":[{"Publisher":"Scotia_Beauty","Module":"SB_Email_Subscribers"}]}*
+
 `?updatePageModules=%7B%22addModules%22%3A%5B%7B%22Publisher%22%3A%22Scotia_Beauty%22%2C%22Module%22%3A%22SB_Email_Subscribers%22%7D%5D%7D`
 
 **updatePageModules:** *{"removeModules":[{"Publisher":"Scotia_Beauty","Module":"SB_Translations"}]}*
+
 `?updatePageModules=%7B%22removeModules%22%3A%5B%7B%22Publisher%22%3A%22Scotia_Beauty%22%2C%22Module%22%3A%22SB_Translations%22%7D%5D%7D`
 
 **updatePageModules:** *{"removeModules":[{"Publisher":"Scotia_Beauty","Module":"SB_Notice::Brexit"}],"addModules":[{"Publisher":"Scotia_Beauty","Module":"SB_Email_Subscribers"}]}*
+
 `?updatePageModules=%7B%22removeModules%22%3A%5B%7B%22Publisher%22%3A%22Scotia_Beauty%22%2C%22Module%22%3A%22SB_Notice%3A%3ABrexit%22%7D%5D%2C%22addModules%22%3A%5B%7B%22Publisher%22%3A%22Scotia_Beauty%22%%2C%22Module%22%3A%22SB_Email_Subscribers%227D%5D%7D`
 
 
