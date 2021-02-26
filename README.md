@@ -1,5 +1,5 @@
 # `updatePageModules` Directives for Da3SH
-**updatePageModules Directives** are a powerful tool enabling the inclusion / removal of any **Da3SH Module** to or from a page simply by editing the URL  `queryString`.
+**updatePageModules** is a powerful tool enabling the addition / removal of any **Da3SH Module** to or from a page simply by editing the URL  `queryString`.
 
 Consequently, **updatePageModules Directives** give anyone browsing a **Da3SH**-powered webpage the ability to add or remove module stylesheets and scripts to or from that page in a couple of keystrokes, without leaving the browser.
 
