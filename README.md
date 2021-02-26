@@ -10,7 +10,7 @@ Given that they are often employed to bolt extra functionality on to a webpage, 
 
  - URLs which include **updatePageModules Directives** will usually be much shorter than **Bookmarklets**
  
- - **updatePageModules Directives** contain *references* to already-installed **Da3SH Modules** while **Bookmarklets** are actually self-contained entities
+ - **updatePageModules Directives** contain *references* to already-installed **Da3SH Modules** while **Bookmarklets** are entirely self-contained entities
  
  - a URL including **updatePageModules Directives** may reference multiple **Da3SH Modules** while a **Bookmarklet** usually represents a single script
 
