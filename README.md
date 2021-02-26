@@ -39,13 +39,13 @@ Note that:
 ```
 [
   {
-  	"Publisher": "Scotia_Beauty",						        // [REQUIRED]
+  	"Publisher": "Scotia_Beauty",      // [REQUIRED]
 
-  	"Module": "SB_Email_Subscribers",					      // [REQUIRED]
+  	"Module": "SB_Email_Subscribers",  // [REQUIRED]
 
-  	"Styles": {"apply": true, "insert": "last"},		// [OPTIONAL]
+  	"Styles": {"apply": true, "insert": "last"},  // [OPTIONAL]
 
-  	"Scripts": {"apply": true, "insert": "last"}		// [OPTIONAL]
+  	"Scripts": {"apply": true, "insert": "last"}  // [OPTIONAL]
   }                                      						
 ]	
 ```
@@ -54,11 +54,13 @@ Note that:
 
  - If `apply` is omitted, default value is `true`
  - If `insert` is omitted, default value is `last`
+ 
  - Available values for `insert` are:
    - `first`
    - `last`
    - `{"before": "Module_Name"}`
    - `{"after": "Module_Name"}`
+   
  - `Module_Name` can ONLY be a module currently present in the Module List, otherwise value will revert to `last`
 
 
