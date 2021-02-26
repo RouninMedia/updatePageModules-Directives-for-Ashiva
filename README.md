@@ -18,13 +18,13 @@ The **queryString Parameter** `updatePageModules` has a percent-encoded JSON val
 
 ```
 {
-  "replaceModules": [],		                             // [OPTIONAL]
+  "replaceModules": [],   // [OPTIONAL]
 
-  "removeModules": [],		                              // [OPTIONAL]
+  "removeModules": [],    // [OPTIONAL]
 
-  "addModules": [],				                               // [OPTIONAL]
+  "addModules": [],       // [OPTIONAL]
 
-  "customOrder": {"Styles": false, "Scripts": false}  // [OPTIONAL]	// <= if either value is omitted, default value is false
+  "customOrder": {"Styles": false, "Scripts": false}  // [OPTIONAL]	// <= either value, if omitted, defaults to false
 }
 ```
 
