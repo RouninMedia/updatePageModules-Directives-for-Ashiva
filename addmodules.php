@@ -1,4 +1,4 @@
-
+```php
 function addModules($Asset, $modulesToAdd, $Module_List) {
   
   for ($i = 0; $i < count($modulesToAdd); $i++) {
@@ -48,3 +48,4 @@ function addModules($Asset, $modulesToAdd, $Module_List) {
   
   return $Module_List;
 }
+```
