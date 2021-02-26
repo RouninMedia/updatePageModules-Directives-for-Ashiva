@@ -1,5 +1,7 @@
 # `updatePageModules` Directives for Da3SH
-**updatePageModules Directives** are a powerful tool enabling the addition / removal of any installed **Da3SH Module** to or from a page simply by editing the URL queryString. Consequently, **updatePageModules Directives** give anyone browsing a **Da3SH**-powered webpage the ability to add or remove module stylesheets and scripts to or from that page.
+**updatePageModules Directives** are a powerful tool enabling the addition / removal of any installed **Da3SH Module** to or from a page simply by editing the URL  `queryString`.
+
+Consequently, **updatePageModules Directives** give anyone browsing a **Da3SH**-powered webpage the ability to add or remove module stylesheets and scripts to or from that page.
 
 ## `updatePageModules` Directives vs Bookmarklets / FireMarks
 From one perspective, **updatePageModules Directives** might be regarded as similar to **Bookmarklets** (aka **FireMarks**) in that they can bolt additional functionality on to a webpage. The differences are principally that
