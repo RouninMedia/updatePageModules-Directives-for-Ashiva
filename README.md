@@ -17,7 +17,7 @@ Given that they are often employed to bolt extra functionality on to a webpage, 
 ______
 
 ## How do `updatePageModules` Directives work?
-In **Da3SH**, you can add or remove modules on a given page (or stylesheet, or scriptsheet) using the **queryString Parameter**:
+In **Ashiva**, you can add or remove modules on a given page (or stylesheet, or scriptsheet) using the **queryString Parameter**:
 
   `updatePageModules`
 
