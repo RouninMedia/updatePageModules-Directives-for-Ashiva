@@ -1,7 +1,7 @@
 # `updatePageModules` Directives for Ashiva
 Ashiva **updatePageModules** directives are a powerful tool which enable the addition or removal of any **Da3SH Module** to or from any web page in only a couple of keystrokes and without ever leaving the browser.
 
-The visitor may manually edit the **updatePageModules Directives** in any URL's `queryString` to add to, remove from, or replace **Da3SH Modules** on any **Ashiva** webpage.
+The visitor may manually edit the **updatePageModules Directives** in any URL's `queryString` to add, remove, or replace any site-installed **Da3SH Modules** on any **Ashiva** webpage.
 
 _____
 
