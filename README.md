@@ -67,7 +67,7 @@ Note that:
    - `{"before": "Module_Name"}`
    - `{"after": "Module_Name"}`
    
-**N.B.** When using "before" and `"after"`, `Module_Name` can ONLY be a module currently present in the Module List, otherwise value will revert to `last`
+**N.B.** When using `"before"` and `"after"`, `Module_Name` can ONLY be a module currently present in the Module List, otherwise value will revert to `last`
 
 ______
 
