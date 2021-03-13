@@ -58,8 +58,8 @@ Note that:
 
 Note that:
 
- - If `apply` is omitted, default value is `true`
- - If `insert` is omitted, default value is `last`
+ - If `apply` is omitted, the value defaults to `true`
+ - If `insert` is omitted, the value defaults to `last`
  
  - Available values for `insert` are:
    - `first`
@@ -67,7 +67,7 @@ Note that:
    - `{"before": "Module_Name"}`
    - `{"after": "Module_Name"}`
    
- - `Module_Name` can ONLY be a module currently present in the Module List, otherwise value will revert to `last`
+**N.B.** When using "before" and `"after"`, `Module_Name` can ONLY be a module currently present in the Module List, otherwise value will revert to `last`
 
 ______
 
