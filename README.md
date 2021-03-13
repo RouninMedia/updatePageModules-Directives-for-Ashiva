@@ -119,14 +119,14 @@ The **updatePageModules** queryString Parameter may be added to any of three URL
  2. The Module StyleSheet: `example.com/modules/styles/styles.css?updatePageModules=%7B%7D`
  3. The Module ScriptSheet: `example.com/modules/scripts/scripts.css?updatePageModules=%7B%7D`
 
- To add to `/my-page/` simply add the **updatePageModules** queryString Parameter:
+To add to `/my-page/` simply add the **updatePageModules** queryString Parameter:
  
-   - to the end of a link
-   - to the end of the URL in the browser URL bar
+  - to the end of a link
+  - to the end of the URL in the browser URL bar
    
- The same **updatePageModules** queryString Parameter will then, automatically, be added to the calls to both the **Module StyleSheet** and the **Module ScriptSheet**.
+The same **updatePageModules** queryString Parameter will then, automatically, be added to the calls to both the **Module StyleSheet** and the **Module ScriptSheet**.
  
- Alternatively, in **ServerSheet**-generated pages, the **updatePageModules** queryString Parameter may be hard-coded directly into **Module StyleSheet** & **Module ScriptSheet** calls.
+Alternatively, in **ServerSheet**-generated pages, the **updatePageModules** queryString Parameter may be hard-coded directly into **Module StyleSheet** & **Module ScriptSheet** calls.
 
 _______
 
